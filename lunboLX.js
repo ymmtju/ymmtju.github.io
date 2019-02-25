@@ -49,7 +49,7 @@ var arr=document.getElementById('arr');
     var square=0;     
     left.onclick=function(){
     	if (pic==0) {
-    		ulObj.style.left=-(ulObj.length-1)*imgWidth;
+    		ulObj.style.left=-(ulObj.length-1)*imgWidth+'px';
     		pic=ulLis.length-1;
     	}
     	pic--;
@@ -64,7 +64,8 @@ var arr=document.getElementById('arr');
     		olLis[i].className='';
     	}
     	olLis[square].className='current';
-    } 
+    }
+right.onclick=playNext;
 //四、实现自动播放
     timer=setInterval(playNext,3000);
 
