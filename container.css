@@ -1,0 +1,117 @@
+.container{
+	width: 100%;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.mainContent{
+	width: 60%;
+}
+.mainContent h1, .post-container h2, .post-container h3, .post-container h4, .post-container h5, .post-container h6 {
+    margin: 30px 0 10px;
+}
+a>.post-title {
+	font-size: 26px;
+    line-height: 1.3;
+    color: rgb(15,15,15,0.8);
+    margin-bottom: 10px;
+    margin-top:30px;
+   }
+ .post-content {
+    font-size: 14px;
+    font-style: italic;
+    color: #a3a3a3;
+}
+.post-preview .post-meta {
+    font-size: 18px;
+    margin:10px 0;
+}
+.tags a{
+	    margin-bottom: -5px;
+	    display: inline-block;
+	    border: 1px solid rgba(241, 236, 236, 0.8);
+	    border-radius: 999em;
+	    padding: 0 10px;
+	    line-height: 24px;
+	    font-size: 12px;
+	    text-decoration: none;
+	    margin: 0 1px;
+	    margin-bottom: 6px;
+
+}
+.mainContent .tags a{
+	    color: gray;
+	    border-color: gray;
+	}
+.mainList{
+	flex: 1;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin:30px 10px;
+}
+.mainList .mainTags{
+	margin:20px 20px;
+}
+.mainTags ul{
+	margin: 20px;
+	padding: 10px;
+}
+.mainTags li{
+  	list-style: none;
+  	display: inline-block;
+  	margin:5px;
+}	
+.tags a{
+	display: inline-block;
+	color: gray;
+}
+.short-about{
+	display: flex;
+	justify-content: center;
+}
+.short-about img{
+	max-width: 200px;
+	max-height: 200px;
+	margin: 10px auto;
+
+}
+.zong{
+	/*margin: 0 auto;
+	text-align: center;*/
+	display: flex;
+	justify-content: center;
+}
+.zong img{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	padding: 20px 20px;
+}
+#erwei{
+	display: flex;
+	justify-content: center;
+}
+#erwei div{
+	bottom: 10px;
+	z-index: 222;
+	padding: 5px 10px;
+	border: 1px solid gray;
+	text-align: center;
+	display: none;
+	left: 5px;
+
+}
+#erwei img{
+	width: 100px;
+	height: 100px;
+	display: none;
+}
+ .recent-post ul li{
+	list-style: circle;
+	line-height: 2;
+	margin: 0 30px;
+}
